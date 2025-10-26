@@ -1,3 +1,9 @@
+//#define task_1
+#define task_6
+
+#include <iostream>
+using namespace std;
+
 #ifdef task_6
 int main() {
     int floors;
@@ -15,9 +21,9 @@ int main() {
     int occupiedrooms = 0;
     
     for (int i = 1; i <= floors; i++) {
-        if (floors == 13) {
+        if (i == 13) {
             cout << "У нас в отеле нет 13 этажа из-за суеверия." << endl;
-        break;
+        continue;
         } 
     
     int roomsOnFloor;
