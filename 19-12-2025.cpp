@@ -14,10 +14,10 @@ int main()
     cout << "Исходное количество: " << quantity << endl;
     return 0;
 }
-\\task 3
-void hill(int &health, int treatment)
+\\task 2
+void hill(int &health, int chislo)
 {
-    health += treatment;
+    health += chislo;
 }
 int main() 
 {
