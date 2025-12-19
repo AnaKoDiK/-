@@ -15,6 +15,19 @@ int main()
     return 0;
 }
 \\task 3
+void hill(int &health, int treatment)
+{
+    health += treatment;
+}
+int main() 
+{
+    int health = 35;
+    cout << "Здоровье в игре до полученного лечения: " << health << endl;
+    hill(health, 15);
+    cout << "Здоровье в игре после получения лечения: " << health << endl;
+    return 0;
+}
+\\task 3
 
 void print(string name,  int age = 14)
 {
