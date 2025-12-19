@@ -9,7 +9,7 @@ void print(string name,  int age = 14)
 }
 int main()
 {
-    print("Иван", 15);
-    print("Анна");
+    print("Алексей", 18);
+    print("Катерина");
     return 0;
 }
